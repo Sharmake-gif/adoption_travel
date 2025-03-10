@@ -147,7 +147,7 @@ class _PlanManagerScreenState extends State<PlanManagerScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Plan Management')),
+      appBar: AppBar(title: Text('My Calender')),
       body: Column(
         children: [
           TableCalendar(
